@@ -1,6 +1,13 @@
-<h1>Links</h1><br >
+<h1>Links</h1><br><hr>
+<div id="outerLinksDb">
+<div class="linksInDb">
 <% for(var i in pop){ %>
- <h4> <%= pop[i] %> </h4>
+<%var linksDb = pop[i].split(" | ") %>
+<% for(var t in linksDb) { %>
+ <br><h4> <%= linksDb[t] %> </h4>
+ <%}%>
+ <br><hr>
 <% }; %>
-
-<button><a href="/">Home</a></button>
+</div>
+</div>
+<button class="menuBtn"><a href="/">Go get another short link</a></button>

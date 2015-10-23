@@ -9,13 +9,14 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       url: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       hash: {
         type: Sequelize.STRING
       },
       click_count: {
         allowNull: false,
+        defaultValue: 0,
         type: Sequelize.INTEGER
       },
       createdAt: {

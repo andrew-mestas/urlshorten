@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Mono', 'sans-serif';
+}
+body{
+	background: #595959;
+}
+button{
+	background: #00FF6D;
+	width: 380px;
+	position: absolute;
+	top:52%;
+	left:0;
+}
+h1{
+	position: relative;
+	top: 4px;
+	color: white;
+}
+h4{
+	color: #F7FF2C;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+input{
+	width: 88%;
+	height: 36px;
+	font-size: 30px;
+	left:0;
+	position: absolute;
+}
+
+.boxOfForm{
+	position: relative;
+	width: 80%;
+	height:100px;
+	text-align: center;
+}
+.menuBtn{
+	position: absolute;
+	top:8px;
+	left:200px;
+}
+
+.linksInDb{
+	width: 90%;
+	position: relative;
+	left:6%;
+	word-wrap: break-word;
+}
+
+#outerLinksDb{
+	width:100%;
+	height: 100%;
+	position: relative;
+	background: #38389F;
+}
