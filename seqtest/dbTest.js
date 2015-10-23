@@ -15,7 +15,7 @@ var db = require('./models');
 //     age: 58,
 //     email: 'josh.josh@ga.co'
 // };
-
+ 
 // db.user.create(newUser).then(function(user) {
 //     console.log(user.get());
 // });
